@@ -7,7 +7,6 @@ public class Main
         Scanner scan = new Scanner(System.in);
                 System.out.print("How old is ballz: ");
         int age = scan.nextInt();
-        System.out.print("ballz is ");
-        System.out.println(age);
+        System.out.println("Ballz is " + age + " years old");
     }
 }
